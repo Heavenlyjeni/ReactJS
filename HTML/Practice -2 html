@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Style.css" /> 
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <h1>RegistrationForm</h1>
+        <div class ="Form-container">
+    <!-- Text -->
+    
+        <label for ="name"> Name:</label> <br>
+        <input type="text" id="'name" name="name" pattern="[A-za-z\s]+" title="Text only allowed  in this column " required ><br>
+        <label for ="mobile">Mobile Number :</label><br>
+        <input type="tel" id ="mobile" name="mobile"  pattern="[0-9]{10}" minlength="10" maxlength="10" title="Enter 10 Digit Mobile Number" required ><br>
+        <label for ="email">Email Address :</label><br>
+        <input type="email" id ="email" name="email" pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$" title="Enter valid Mail address "  required><br>
+        <label for ="address">Address :</label><br>
+        <textarea id="address"  name ="address" maxlength="140" rows="5" required ></textarea><br>
+
+    </div>
+      
+    <!-- Radio -->
+     <div class="Gender-radio">
+         <label for ="Gender ">Gender</label><br>
+         <input type = "radio" name = "Gender" id = "Male" />
+         <label for = "male" >Male</label> <br>
+         <input type = "radio" name = "Gender" id = "Female" />
+         <label for = "Female" >Female</label> <br>
+        </div>
+
+    <!-- select -->
+    <div class="Select-Batch">
+           <select>
+            <option>Batch 1</option>
+            <option>Batch 2 </option>
+         </select> <br> 
+        </div>
+
+    <!-- Password -->
+    <div class="text-login">
+        <label for = "Login" >User name</label> <br> 
+        <input type = "text" placeholder ="Text field" required/> <br> 
+        <label for = "password" >Create Password </label> <br> 
+        <input type = "password" placeholder="Create Password" required /> <br> 
+        <label for = "password" >Confirm Password </label> <br> 
+        <input type = "password" placeholder="Confirm Password" required /> <br> <br>
+    </div>
+    <!-- Checkbox -->
+    <div class="text-Checkbox">
+        <input type = "checkbox" name = "Terms and conditions" id = "Terms and conditions" />
+        <label for = "Terms and conditions" >Terms and conditions</label> <br>
+        <input type = "checkbox" name = "FQA" id = "FQA" />
+        <label for = "FQA" >FQA</label> <br> <br>
+    </div >
+
+    <!-- Submit button -->
+
+         <button type = "submit">Submit</button>  
+       
+      </form>
+
+</body>
+</html>
