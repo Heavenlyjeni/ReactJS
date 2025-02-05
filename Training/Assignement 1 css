@@ -1,0 +1,92 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #8fc5f4;
+}
+
+.container {
+    display: flex;
+    width: 80%;
+    margin-top: 10px;
+    margin:10px;
+    background-color: orange;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.left-part, .Registration {
+    padding: 10px;
+    width: 60%;
+   
+}
+
+.left-part {
+
+    border-right: 1px solid #ddd;
+}
+
+.card {
+    
+    background-color: #f4adad;
+    padding: 20px;
+    font-display: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.card h3 {
+    margin: 20px 0;
+}
+
+.Registration {
+    display: flex;
+    flex-direction:column;
+    text-align:center ;
+}
+
+.Registration form {
+    display: flex;
+    background-color: lightgreen;
+    flex-direction: column;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.Registration label {
+    margin-top: 15px;
+
+}
+
+.Registration input, .Registration textarea, .Registration select, .Registration button {
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+
+.Registration button {
+    background-color:#3417da;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.Registration button:hover {
+    background-color: #0056b3;
+}
+
