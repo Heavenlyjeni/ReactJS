@@ -11,21 +11,25 @@
         <div class="Cards">
             <div class="card">            
                 <h3>Life</h3>
+                <img src="image.png" ></img>
                 <p>“You have to believe in yourself when no one else does.” </p>
             </div>
             <div class="card">                
                 <h3>Thoughts</h3>
+                <img src="image.png" ></img>
                 <p>“When you change your thoughts, remember to also change your world.” </p>
             </div>
             <div class="card">            
                 <h3>Smile</h3>
+                <img src="image.png"  ></img>
                 <p>“Keep smiling, because life is a beautiful thing and there’s so much to smile about.” </p>
             </div>
             <div class="card">            
                 <h3>Future</h3>
+                <img src="image.png"  ></img>
                 <p>“Take the time to enjoy the little things, for one day you may look back and realize they were the big things.”</p>
             </div>
-            
+            <!-- Add more cards as needed -->
         </div>
         <div class="Registration">
             <form>
