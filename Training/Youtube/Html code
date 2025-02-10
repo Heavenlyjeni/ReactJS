@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Clone</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <div class="youtube-main">
+        <div class="top-bar">
+            <div class="logo">
+                <div class="logo-icon">
+                    <img src="./download.png" alt="LOGO">
+                </div>
+                <div class="logo-name">YouTube</div>
+            </div>
+            <div class="search">
+                <input type="text" placeholder="Search">
+                <button>🔍</button>
+            </div>
+            <div class="icons">
+                <div class="icon-item">🔔</div>
+                <div class="icon-item">⚙️</div>
+            </div>
+        </div>
+        <div class="content-bar">
+            <div class="left-bar">
+                <div class="main-tabs">
+                    <div class="main-tab-content">
+                        <div class="tab-content-icon">🏠</div>
+                        <div class="tab-content-name">Home</div>
+                    </div>
+                    <div class="main-tab-content">
+                        <div class="tab-content-icon">🎥</div>
+                        <div class="tab-content-name">Shorts</div>
+                    </div>
+                    <div class="main-tab-content">
+                        <div class="tab-content-icon">📹</div>
+                        <div class="tab-content-name">subscriptions</div>
+                    </div>
+                </div>
+                <hr>
+                <div class="frequent-tabs">
+                    <h1>You</h1>
+                    <div class="main-tab-content">
+                        <div class="tab-content-icon">📺</div>
+                        <div class="tab-content-name">Your Channel</div>
+                    </div>
+                    <div class="main-tab-content">
+                        <div class="tab-content-icon">👍</div>
+                        <div class="tab-content-name">Likes</div>
+                    </div>
+                    <div class="main-tab-content">
+                        <div class="tab-content-icon">🕒</div>
+                        <div class="tab-content-name">History</div>
+                    </div>
+                    <div class="main-tab-content">
+                        <div class="tab-content-icon">📹</div>
+                        <div class="tab-content-name">Playlist</div>
+                    </div>
+                    <div class="main-tab-content">
+                        <div class="tab-content-icon">🕒</div>
+                        <div class="tab-content-name">Watch Later</div>
+                    </div>
+                </div>
+                <hr>
+                <div class="subscriptions">
+                    <div class="main-tab-content">
+                        <div class="tab-content-icon">📺</div>
+                        <div class="tab-content-name">Channel 1</div>
+                    </div>
+                    <div class="main-tab-content">
+                        <div class="tab-content-icon">📺</div>
+                        <div class="tab-content-name">Channel 2</div>
+                    </div>
+                </div>
+            </div>
+            <div class="content-list">
+                <div class="content-list-item">
+                    <div class="list-item-image">
+                        <img src="thumbnail1.jpg" alt="Video Thumbnail">
+                    </div>
+                    <div class="list-item-details">
+                        <div class="item-details-description">Video Title 1</div>
+                        <div class="item-details-creatorname">Channel Name</div>
+                        <div class="item-details-totalviews">1M views</div>
+                        <div class="item-details-date">1 day ago</div>
+                    </div>
+                </div>
+                <div class="content-list-item">
+                    <div class="list-item-image">
+                        <img src="thumbnail2.jpg" alt="Video Thumbnail">
+                    </div>
+                    <div class="list-item-details">
+                        <div class="item-details-description">Video Title 2</div>
+                        <div class="item-details-creatorname">Channel Name</div>
+                        <div class="item-details-totalviews">500K views</div>
+                        <div class="item-details-date">2 days ago</div>
+                    </div>
+                </div>
+                <div class="content-list-item">
+                    <div class="list-item-image">
+                        <img src="thumbnail2.jpg" alt="Video Thumbnail">
+                    </div>
+                    <div class="list-item-details">
+                        <div class="item-details-description">Video Title 3</div>
+                        <div class="item-details-creatorname">Channel Name</div>
+                        <div class="item-details-totalviews">100k views</div>
+                        <div class="item-details-date">1 days ago</div>
+                    </div>
+                </div>
+                <div class="content-list-item">
+                    <div class="list-item-image">
+                        <img src="thumbnail2.jpg" alt="Video Thumbnail">
+                    </div>
+                    <div class="list-item-details">
+                        <div class="item-details-description">Video Title 4</div>
+                        <div class="item-details-creatorname">Channel Name</div>
+                        <div class="item-details-totalviews">250k views</div>
+                        <div class="item-details-date">1 days ago</div>
+                    </div>
+                </div>
+                <div class="content-list-item">
+                    <div class="list-item-image">
+                        <img src="thumbnail2.jpg" alt="Video Thumbnail">
+                    </div>
+                    <div class="list-item-details">
+                        <div class="item-details-description">Video Title 5</div>
+                        <div class="item-details-creatorname">Channel Name</div>
+                        <div class="item-details-totalviews">103k views</div>
+                        <div class="item-details-date">5 days ago</div>
+                    </div>
+                </div>
+                <div class="content-list-item">
+                    <div class="list-item-image">
+                        <img src="thumbnail2.jpg" alt="Video Thumbnail">
+                    </div>
+                    <div class="list-item-details">
+                        <div class="item-details-description">Video Title 6</div>
+                        <div class="item-details-creatorname">Channel Name</div>
+                        <div class="item-details-totalviews">900k views</div>
+                        <div class="item-details-date">9 days ago</div>
+                    </div>
+                </div>
+            
+            </div>
+        </div>
+    </div>
+</body>
+</html>
