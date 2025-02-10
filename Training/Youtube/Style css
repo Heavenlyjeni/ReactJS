@@ -1,0 +1,125 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+.youtube-main {
+  display: flex;
+  flex-direction: column;
+  background-color:black;
+}
+
+.top-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #FF0000;
+  color: white;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo-icon img {
+  width: 40px;
+  height: 40px;
+}
+
+.logo-name {
+  font-size: 24px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+}
+
+.search input[type="text"] {
+  width: 400px;
+  padding: 5px;
+}
+
+.search button {
+  padding: 5px 10px;
+  background-color: white;
+  color: #FF0000;
+  border: none;
+  cursor: pointer;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+}
+
+.icon-item {
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.content-bar {
+  display: flex;
+}
+
+.left-bar {
+  width: 200px;
+  background-color: black;
+  padding: 20px;
+}
+
+.main-tabs, .frequent-tabs, .subscriptions {
+  color: white;
+  margin-bottom: 20px;
+}
+
+.main-tab-content {
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+  cursor: pointer;
+}
+
+.tab-content-icon {
+  margin-right: 10px;
+}
+
+.content-list {
+  flex-grow: 2;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+ 
+}
+
+.content-list-item {
+  display: flex;
+  border: 1px solid white;
+  padding: 10px;
+  background-color: azure;
+}
+
+.list-item-image img {
+  width: 120px;
+  height: 90px;
+}
+
+.list-item-details {
+  margin-left: 10px;
+}
+
+.item-details-description {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.item-details-creatorname, .item-details-totalviews, .item-details-date {
+  color:black;
+}
